@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guess GAme</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- section1 -->
+
+  <div id="section1" class="container text-center mt-5">
+    <button class="btn btn-warning btn-lg" onclick="generate_number_btn_click()">Generate Number</button>
+  </div>
+
+  <!-- section2 -->
+
+  <div id="section2" class="conatiner">
+    <div class="row mt-5">
+
+      <div class="col-12 text-center">
+        <img src="./thinking-hmm.gif" alt="">
+
+        <p class="text-danger">Guess the number between 1 to 20</p>
+
+        <div class="form-group w-25 mx-auto">
+          <input id="field" type="text" placeholder="Enter here" class="form-control">
+        </div>
+
+        <button class="btn btn-primary btn-sm mt-4" onclick="check_number">
+          Check
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- section3 -->
+
+  <div class="conatainer text-center" id="section3">
+    <img class="img-fluid" style="width:250px;"
+      src="https://www.animatedimages.org/data/media/710/animated-dice-image-0020.gif" alt="">
+
+    <h2>Generating Number</h2>
+
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
